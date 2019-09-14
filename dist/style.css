@@ -1,0 +1,13 @@
+body {
+    background: #999;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background: #fff;
+    width: 600px;
+    margin: auto;
+}

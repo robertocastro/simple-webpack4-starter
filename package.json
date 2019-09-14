@@ -1,0 +1,32 @@
+{
+  "name": "simple-webpack4-starter",
+  "version": "1.0.1",
+  "description": "## Init project ``` npm init -y ``` ## Install webpack ``` npm i -D webpack webpack-cli ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack --mode=development",
+    "serve": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertocastro/simple-webpack4-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertocastro/simple-webpack4-starter/issues"
+  },
+  "homepage": "https://github.com/robertocastro/simple-webpack4-starter#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
