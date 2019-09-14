@@ -1,7 +1,7 @@
 # simple-webpack4-starter
 
 ## Why this starter
-Main goal is to enable rapid prototyping HTML/CSS/Javascript starter.
+Repository main goal is to quickly start prototyping frontend web application.
 
 ## How to use it
 ```
