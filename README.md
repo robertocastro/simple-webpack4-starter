@@ -1,13 +1,14 @@
 # simple-webpack4-starter
 
 ## Why this starter
-Main goal is to have a one click starter for rapid prototyping of html/css/javascript front applications.
+Main goal is to enable rapid prototyping HTML/CSS/Javascript starter.
 
 ## How to use it
 ```
 git clone https://github.com/robertocastro/simple-webpack4-starter.git
 cd simple-webpack4-starter.git
 npm install
+
 npm run serve # launch dev-server on http://localhost:8080
 npm run build # build production /dist folder
 npm run dev # build development /dist folder
@@ -32,6 +33,6 @@ Added build, dev and serve scripts
 
 ### Install webpack and needed dependencies
 ```
-npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin copy-webpack-plugin mini-css-extract-plugin css-loader
 ```
 
